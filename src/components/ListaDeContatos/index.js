@@ -1,4 +1,5 @@
 import React from "react"
+import "./style.css"
 
 
 function ListaDeContatos() {
@@ -14,7 +15,7 @@ function ListaDeContatos() {
                         <input type="text" name="nome" id="nome" placeholder="Nome" className="inputStyle"/>
                     </div>
                     {/* <!-- Numero --> */}
-                    <div class="inputBox">
+                    <div className="inputBox">
                         <input type="text" name="numero" id="numero" placeholder="Número" className="inputStyle"/>
                     </div>
                     <div className="actions">
