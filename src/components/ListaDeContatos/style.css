@@ -85,3 +85,18 @@ button{
     height: 50px;
     border-bottom: 1px solid gray;
 }
+
+.delete-button{
+    color: red;
+}
+
+.delete-button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+h4{
+    padding: 0px;
+    margin: 0px;
+}
