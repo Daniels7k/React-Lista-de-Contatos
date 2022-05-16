@@ -32,7 +32,7 @@ function ListaDeContatos() {
                         <input type="text" name="numero" id="numero" placeholder="Número" className="inputStyle" />
                     </div>
                     <div className="actions">
-                        <button type="submit">Salvar</button>
+                        <button className="salvar-button" type="submit">Salvar</button>
                     </div>
                 </form>
                 {/* Feature Futura */}

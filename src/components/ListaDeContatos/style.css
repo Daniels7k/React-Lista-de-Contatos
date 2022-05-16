@@ -116,3 +116,9 @@ h4{
     cursor: pointer;
     background-color: gray;
 }
+
+.salvar-button:hover{
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
