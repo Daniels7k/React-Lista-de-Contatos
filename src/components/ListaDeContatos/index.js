@@ -22,7 +22,7 @@ function ListaDeContatos() {
 
                 <h3 className="titulo">Lista de contatos</h3>
 
-                <form action="http://localhost:4000/contatos" method="post" className="form">
+                <form action="https://express-react-lista-de-contato.herokuapp.com/contatos" method="post" className="form">
                     {/* <!-- Nome --> */}
                     <div className="inputBox">
                         <input type="text" name="nome" id="nome" placeholder="Nome" className="inputStyle" />
@@ -32,7 +32,7 @@ function ListaDeContatos() {
                         <input type="text" name="numero" id="numero" placeholder="Número" className="inputStyle" />
                     </div>
                     <div className="actions">
-                        <button className="salvar-button" type="submit">Salvar</button>
+                        <button className="salvar-button">Salvar</button>
                     </div>
                 </form>
                 {/* Feature Futura */}
@@ -55,7 +55,7 @@ function ListaDeContatos() {
                             </div>
 
                             <div className="contato-box-actions">
-                                <a href={`http://localhost:4000/contatos/delete/${contato.id}`}> <button className="delete-button">X</button></a>
+                                <a href={`https://express-react-lista-de-contato.herokuapp.com/contatos/delete/${contato.id}`}> <button className="delete-button">X</button></a>
                             </div>
 
                         </div>
