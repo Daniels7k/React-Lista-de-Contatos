@@ -10,6 +10,8 @@ Futuramente esse projeto vai contar com um filtro e também com uma barra de pes
   
 Link da API: https://github.com/Daniels7k/Express-to-react-lista-de-contatos
 
+Link do Projeto Online: https://daniels7k.github.io/React-Lista-de-Contatos/
+
 ## Imagens
 <p align="center">
   <img src="https://github.com/Daniels7k/Assets/blob/main/assets/Lista%20de%20Contatos/Lista%20de%20Contatos.gif?raw=true">
