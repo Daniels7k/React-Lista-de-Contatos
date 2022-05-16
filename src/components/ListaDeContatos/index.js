@@ -35,19 +35,29 @@ function ListaDeContatos() {
                         <button type="submit">Salvar</button>
                     </div>
                 </form>
-
-                <form action="" className="form" id="searchBox">
+                {/* Feature Futura */}
+                {/* <form action="" className="form" id="searchBox">
                     <input type="search" placeholder="Procure um contato" id="search" />
                     <button type="submit">Procurar</button>
-                </form>
+                </form> */}
 
                 <div className="contatos">
 
                     {contatos?.map(contato => (
                         <div className="contato" key={contato.id}>
-                        <h4>{contato.nome}</h4>
-                        <h4>{contato.numero}</h4>
-                        <a href={`http://localhost:4000/contatos/delete/${contato.id}`}> <button className="delete-button">X</button></a>
+
+                            <div className="contato-box-nome">
+                                <h4>{contato.nome}</h4>
+                            </div>
+
+                            <div className="contato-box-numero">
+                                <h4 className="contato-numero">{contato.numero}</h4>
+                            </div>
+
+                            <div className="contato-box-actions">
+                                <a href={`http://localhost:4000/contatos/delete/${contato.id}`}> <button className="delete-button">X</button></a>
+                            </div>
+
                         </div>
                     ))}
                 </div>
